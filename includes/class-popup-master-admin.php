@@ -27,8 +27,8 @@ if (!class_exists('classPopupMaster')):
 
         public function addMenuPopupMasters(){            
 
-            $page_title = 'Drift Popups';
-            $menu_title = 'Drift Popups';
+            $page_title = 'Popup Master';
+            $menu_title = 'Popup Master';
             $capability = 'manage_options';
             $menu_slug  = POPUP_MASTER_PAGE_SLUG;
             $function   = array($this,'popup_master_html');
