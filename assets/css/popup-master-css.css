@@ -1,0 +1,29 @@
+.popup-master-fundo {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background: #ffffff61;
+    z-index: 9999999;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div#popup-master {
+    max-height: 80vh;
+    width: 85vw;
+    overflow-y: scroll;
+}
+
+div#popup-master a {
+    width: 100%;
+    height: 100%;
+}
+
+div#popup-master img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
